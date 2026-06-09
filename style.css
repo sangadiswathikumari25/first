@@ -1,0 +1,76 @@
+header{
+    background-color:rgb(131, 15, 34) ;
+    color: white;
+    height: 120px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    margin: 0 10px;
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: white;
+    color: white;
+}
+nav ul li a:hover{
+color: pink;
+}
+#Home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.leftsection{
+    margin: 0 200px;
+    font-size: 1.4rem;
+}
+.rightsection{
+    margin: 10px 100px;
+}
+span{
+    color: rgb(131, 15, 34);
+}
+.projects{
+    text-decoration: underline;
+    color: rgb(131, 15, 34);
+}
+#Projects{
+    gap: 30px;
+    padding: 20px;
+    display: flex;
+    height: 400px;
+}
+#Projects ul{
+    font-size: 1.2rem;
+    line-height: 40px;
+}
+#Projects ul li{
+    list-style-type: none;
+}
+#box{
+    width: 370px;
+    background-color: rgb(131, 15, 34);
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px gray;
+
+}
+#box h2{
+    margin-bottom: 15px;
+    
+}
+#skills{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 30px;
+}
